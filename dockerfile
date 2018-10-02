@@ -12,6 +12,7 @@ LABEL Author="Lucas C / llucbrell"
 RUN ["apt-get", "update"]
 RUN ["apt-get", "install", "-y", "apt-utils"]
 RUN ["apt-get", "install", "-y", "neovim"]
+RUN ["apt-get", "install", "-y", "git"]
 RUN ["apt-get", "install", "-y", "tmux"]
 RUN ["apt-get", "install", "-y", "gnupg"]
 RUN ["apt-get", "install", "-y", "curl"]
