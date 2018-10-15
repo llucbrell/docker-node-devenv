@@ -43,6 +43,7 @@ RUN ["apt-get", "install", "-y", "nodejs"]
 RUN ["npm", "install", "-g", "jshint"]
 RUN ["npm", "install", "-g", "prettier"]
 RUN ["npm", "install", "-g", "neovim"]
+RUN ["npm", "install", "-g", "serve"]
 
 
 # COFIGURATIONS
@@ -80,7 +81,7 @@ WORKDIR ["app"]
 
 # PORT ACCESS
 
-EXPOSE 8338 
+EXPOSE 5000 
 
 
 # INTERACTION
